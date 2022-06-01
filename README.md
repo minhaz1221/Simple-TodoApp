@@ -1,7 +1,7 @@
 # Hi There  
 This is my first react app. It's too much simple to use. Just adding and deleting data.  
 
-### here is live link you can visit by <a target="_blank" src="http://minhaz1221.github.io/Simple-TodoApp">click here</a>  
+### here is live link you can visit by click here:  http://minhaz1221.github.io/Simple-TodoApp 
 
 
 ## You can run it also in your  local machine: 
