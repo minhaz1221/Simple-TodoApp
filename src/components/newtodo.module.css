@@ -1,0 +1,49 @@
+.form {
+    width: 50%;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-feild {
+    margin: 1rem 0;
+    display: flex;
+}
+
+.form-feild label {
+    flex-basis: 20%;
+}
+.form-feild input, .form-feild textarea {
+    flex-basis: 80%;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    resize: none;
+}
+
+.form-feild input:focus, .form-feild textarea:focus {
+    outline: 2px solid yellow;
+}
+
+
+.form button {
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+.form button:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+@media only screen and (max-width: 570px) {
+    .form {
+        width: 80% !important;
+    }
+}
